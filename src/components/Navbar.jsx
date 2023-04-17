@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import { useCart } from './ContextReducer';
-import Modal from '../Modal';
-import Cartscreen from '../screens/Cartscreen';
-import {useSelector, useDispatch} from 'react-redux'
+//import Modal from '../Modal';
+//import Cartscreen from '../screens/Cartscreen';
+import {useSelector} from 'react-redux'
+//import {useDispatch} from 'react-redux'
 
 export default function Navbar() {
 
@@ -17,10 +18,7 @@ export default function Navbar() {
         navigate("/login")
     }
 
-    const loadCart = () => {
-        setCartView(true)
-    }
-
+   
     const items = useCart();
     return (
         <div>
