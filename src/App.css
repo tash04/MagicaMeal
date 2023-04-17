@@ -1,3 +1,7 @@
+.my-element {
+  print-color-adjust: exact;
+}
+
 .App {
   text-align: center;
 }
