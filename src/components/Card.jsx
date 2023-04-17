@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { addToCart } from '../actions/cartActions'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 
 export default function Cards({ edible }) {
 const[quantity, setquantity]= useState(1)
