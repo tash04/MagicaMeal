@@ -48,3 +48,7 @@
   },
   "proxy": "http://localhost:8000/"
 }
+
+"overrides": {
+    "autoprefixer": "10.4.5"
+}
