@@ -35,24 +35,24 @@ code {
 }
   
 .fa-plus{
-   print-color-adjust: exact;
-  color:green;
+   color:green;
 }
 
 .fa-minus{
-   print-color-adjust: exact;
-  color:red !important;
+ color:red !important;
 }
 
 .fa-trash{
-   print-color-adjust: exact;
   color:darkslateblue
 }
 
 .h2{
-   print-color-adjust: exact;
-  color: brown;
+ color: brown;
 }
 .image{
   display: inline;
 }
+.my-element {
+  print-color-adjust: exact;
+}
+
