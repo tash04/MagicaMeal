@@ -6,7 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'NHaasGroteskDSPro-65Md' !important;
-  print-color-adjust: exact;
 }
 
 code {
@@ -36,18 +35,22 @@ code {
 }
   
 .fa-plus{
+   print-color-adjust: exact;
   color:green;
 }
 
 .fa-minus{
+   print-color-adjust: exact;
   color:red !important;
 }
 
 .fa-trash{
+   print-color-adjust: exact;
   color:darkslateblue
 }
 
 .h2{
+   print-color-adjust: exact;
   color: brown;
 }
 .image{
