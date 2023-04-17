@@ -9,7 +9,7 @@ import {useSelector} from 'react-redux'
 export default function Navbar() {
 
     const cartstate = useSelector((state) => state.cartReducer);
-    const [cartView, setCartView] = useState(false)
+    //const [cartView, setCartView] = useState(false)
     localStorage.setItem('temp', "first")
     let navigate = useNavigate();
     const handleLogout = () => {
@@ -19,7 +19,7 @@ export default function Navbar() {
     }
 
    
-    const items = useCart();
+   // const items = useCart();
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-success position-sticky"
@@ -44,7 +44,6 @@ export default function Navbar() {
                         {(!localStorage.getItem("token")) ?
                             <form className="d-flex">
                                 <Link className="btn bg-white text-success mx-1 " to="/login">Login</Link>
-                               // <Link className="btn bg-white text-success mx-1" to="/signup">Signup</Link>
                                 <Link className="btn bg-white text-success mx-1" to='/cart'>Cart {cartstate.cartItems.length}</Link>
                            </form> :
 
