@@ -44,7 +44,7 @@ export default function Navbar() {
                         {(!localStorage.getItem("token")) ?
                             <form className="d-flex">
                                 <Link className="btn bg-white text-success mx-1 " to="/login">Login</Link>
-                                <Link className="btn bg-white text-success mx-1" to="/signup">Signup</Link>
+                               // <Link className="btn bg-white text-success mx-1" to="/signup">Signup</Link>
                                 <Link className="btn bg-white text-success mx-1" to='/cart'>Cart {cartstate.cartItems.length}</Link>
                            </form> :
 
