@@ -52,15 +52,6 @@ export default function Navbar() {
 
                              <div>
 
-//                                 <div className="btn bg-white text-success mx-2 " onClick={loadCart}>
-//                                     <Badge color="secondary" badgeContent={items.length} >
-//                                         <ShoppingCartIcon />
-//                                     </Badge>
-//                                     Cart
-//                                 </div>
-
-//                                 {cartView ? <Modal onClose={() => setCartView(false)}><Cartscreen></Cartscreen></Modal> : ""}
-
                                 <button onClick={handleLogout} className="btn bg-white text-success" >Logout</button></div>}
                     </div>
                 </div>
